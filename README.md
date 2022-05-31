@@ -6,9 +6,8 @@ The DSA topics are as follows: (majorly covered)
 - Array
 - Linked List
 - Stack
-- Queue
-- Binary Tree
-- Binary Search Tree
+- Queues
+- Trees
 - Heap
 - Hashing
 - Graph
