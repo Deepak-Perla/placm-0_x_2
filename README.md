@@ -4,6 +4,8 @@ This repository consists of Data Structures and Algorithms topic required for pl
 <br>
 The DSA topics are as follows: (majorly covered)
 - Sorting 
+  - Basic
+  - Advanced  
 - Array
 - Linked List
 - Stack
