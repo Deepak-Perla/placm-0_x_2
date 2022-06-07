@@ -3,6 +3,7 @@
 This repository consists of Data Structures and Algorithms topic required for placement preperation. 
 <br>
 The DSA topics are as follows: (majorly covered)
+- Sorting 
 - Array
 - Linked List
 - Stack
@@ -11,5 +12,4 @@ The DSA topics are as follows: (majorly covered)
 - Heap
 - Hashing
 - Graph
-- Sorting 
 ### Please keep an eye on `Issues` for updated information.
