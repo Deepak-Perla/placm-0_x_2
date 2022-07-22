@@ -7,7 +7,7 @@ package backtracking;
         }
 
         //	T-1 => only 2 directions !! Right and down!
-        public static void Maze(int r, int c, int dest_r, int dest_c, int[][] maze, String path) {
+        public static void Maze(int r, int c, int dest_r, int dest_c, int[][] maze, String path, boolean[][] booleans) {
 //
             if (r == dest_r && c == dest_c) {
                 System.out.println(path);
@@ -18,7 +18,7 @@ package backtracking;
                 return;
             }
 
-            Maze(r, c + 1, dest_r, dest_c, maze, path + "R");
-            Maze(r + 1, c, dest_r, dest_c, maze, path + "D");
+            Maze(r, c + 1, dest_r, dest_c, maze, path + "R", new boolean[maze.length][maze[0].length]);
+            Maze(r + 1, c, dest_r, dest_c, maze, path + "D", new boolean[maze.length][maze[0].length]);
         }
     }
