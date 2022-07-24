@@ -1,6 +1,10 @@
 package linkedlists;
 
-public class ll_a {
+class Node{
+    int data;
+    Node next;
+}
+public class Ll_a {
 
     Node head;
 
